@@ -1,0 +1,9 @@
+sample code
+#!/bin/bash
+ec2-user
+sudo -i
+yum install httpd -y
+cd /var/www/html
+echo"welcome">index.html
+service httpd restar
+
